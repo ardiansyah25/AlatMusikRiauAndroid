@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Alat Musik Riau</string>
+    <string name="selengkapnya">Selengkapnya</string>
+    <string name="instument_detail">instrument Detail</string>
+    <string name="nama_instrument">Nama Instrument</string>
+    <string name="detail_penjelasan">Detail penjelasan</string>
+    <string name="myname">Ardiansyah</string>
+    <string name="myemail">ardiyansah_ardi@rocketmail.com</string>
+</resources>

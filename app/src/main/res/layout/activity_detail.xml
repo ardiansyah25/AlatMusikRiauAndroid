@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="18dp"
+   android:layout_marginRight="18dp"
+    android:layout_marginLeft="18dp"
+    android:orientation="vertical"
+    tools:context=".ActivityDetail">
+
+    <ImageView
+        android:id="@+id/img_detail_item_photo"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_marginBottom="4dp"
+        android:scaleType="centerCrop"
+        tools:src="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/tv_instrument_detail_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:text="@string/nama_instrument" />
+
+    <me.biubiubiu.justifytext.library.JustifyTextView
+        android:id="@+id/tv_instrument_detail_detail"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/detail_penjelasan"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        />
+
+</LinearLayout>
